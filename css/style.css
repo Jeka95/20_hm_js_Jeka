@@ -1,0 +1,38 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrap {
+   width: 548px;
+   height: 759px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+img {
+   position: absolute;
+}
+
+.time {
+   position: absolute;
+   z-index: 2;
+   top: 300px;
+   font-size: 50px;
+   color: ivory;
+}
+.mimut {
+   position: absolute;
+   z-index: 2;
+   top: 350px;
+   font-size: 50px;
+   color: ivory;
+}
+.phone {
+   width: 319px;
+   height: 1px;
+   border: 1px solid #000;
+   z-index: 2;
+   margin-top: 70px;
+   background-color: #000;
+}
